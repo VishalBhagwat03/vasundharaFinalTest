@@ -15,16 +15,16 @@
         <div class="card shadow  mb-5 bg-body rounded p-4 mt-5"
       style="width: 800px; margin-left: 17%">
                 <form action="UserLogin" method="post">
-                    <div class="form-group">
-                        <label for="userId" style="padding-top: 20px">Username : </label>
+                    <div class="form-group pt-3">
+                        <label for="userId">Username</label>
                         <input type="text" id="userId" name="userId" class="form-control" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group pt-2">
                         <label for="password">Password :</label>
                         <input type="password" id="password" name="password" class="form-control" required>
                     </div>
                     <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-success">Login Now </button>
                     </div>
                 </form>
             </div>
